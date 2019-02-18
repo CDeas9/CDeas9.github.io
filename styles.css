@@ -1,0 +1,152 @@
+@charset "UTF-8";
+.nav {
+    border: medium solid #53739c;
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url("images/cliffs.jpg");
+    background-position: 0% 50%;
+    height: 165px;
+	
+}#main-menu {
+    background-color: #FFFFFF;
+    margin-top: 28px;
+}
+#main-menu .top-bar-left .menu.horizontal {
+    background-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+}
+li a h3 {
+    font-family: allura;
+    font-style: normal;
+    font-weight: 400;
+	color: #53739c;
+}
+.grid-x .small-12.text-center.show-for-small-only.cell h1 {
+    font-size: 55px;
+    font-family: brush-script-std;
+    color: #FFFFFF;
+}
+.grid-x .medium-12.cell h1 {
+    font-family: brush-script-std;
+    font-size: 48pt;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.grid-container.bio .grid-x.grid-padding-x .medium-7.cell {
+    margin-top: 40px;
+}
+
+li a h3:hover {
+    color: #1E6F0E;
+}
+.grid-x .medium-4.small-12.cell img {
+    margin-top: 30px;
+}
+h2 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bio {
+    margin-top: 50px;
+}
+.foot {
+    margin-top: 150px;
+}
+
+.java, .other, .python, .htm{
+    margin-top: 50px;
+}
+
+h2, h3, h4, h5, h6, p{
+	    color: #53739C;
+}
+.title-bar {
+    background-color: #53739c;
+}
+.grid-x .medium-12 h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 55px;
+}
+.grid-container .grid-x .medium-12.text-center.cell {
+	margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 55px;
+}
+.grid-container.nav .grid-x .small-12.text-center.show-for-small-only.cell {
+    margin-top: 40px;
+}
+.grid-container .grid-x .medium-4.dh.cell {
+    margin-top: 50px;
+}
+.grid-container .grid-x .medium-8.dh.cell {
+    margin-top: 40px;
+}
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.medium-10.medium-offset-1.cell p img {
+    float: right;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.leftcolumn .card img {
+    width: 216px;
+    float: left;
+    margin-right: 15px;
+}
+.grid-container .grid-x.grid-padding-x.grid-padding-y .medium-3.prob.cell {
+    height: 3px;
+}
+.grid-container .grid-x.grid-padding-x .medium-3.small-2.rot.cell {
+   
+}
+.grid-container .grid-x.grid-padding-x .medium-3.small-2.probl.cell {
+    height: 168px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}

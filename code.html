@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Code</title>
+<!-- This loads Foundation CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" rel="stylesheet" type="text/css">
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<!-- This loads jQuery JavaScript (this must be before the Foundation js below) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- This loads Foundation JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+<!-- Finally, this starts foundation for everything on the page -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).foundation();
+	});
+</script>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/yeseva-one:n4:default;arizonia:n4:default;euphoria-script:n4:default;mate:n4:default;brush-script-std:n4:default;allura:n4:default.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="grid-container nav">
+		<div class="grid-x">
+			<div class = "medium-12 text-center hide-for-small-only cell"><h1>Callie's Portfolio</h1></div>
+			<div class = "small-12 text-center show-for-small-only cell"><h1>Callie's Portfolio</h1></div>
+		</div>
+</div>
+	<div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+  		<button class="menu-icon" type="button" data-toggle></button>
+	</div>	
+	<div class="top-bar" id="main-menu">
+  		<div class="top-bar-left">
+		<ul class="menu horizontal">
+		<li><a href="index.html"><h3>Home</h3></a></li>
+      	<li><a href="code.html"><h3>Coding</h3></a></li>
+			<!--<ul class = "menu horizontal">
+				<li><a href = "#c++"><h3>C++</h3></a></li>
+			</ul> -->
+		<li><a href="anim.html"><h3>Animation</h3></a></li>
+		<li><a href="photo.html"><h3>Photography</h3></a></li>
+    </ul>
+  </div>
+</div>
+<div class = "grid-container python">
+	<div class = "grid-x grid-padding-x">
+		<div class = "medium-12 text-center cell">
+		<h2>Coding Projects</h2>
+		</div>
+		<div class = "medium-12 cell">
+			<h2 id = "py">Python</h2>
+			<p>Click on photos to see code in GitHub.</p>
+		</div>
+	  <div class = "medium-5 medium-offset-1 small-10 small-offset-1">
+		<h3>TravelCast</h3>
+		<a href = "https://github.com/cphbrt/travelweather" title = "TravelCast code" target = "_blank"><img src = "images/travelcast.jpg" alt = "code for cyclone scale program"/></a>
+		<h5><br>Takes user's starting location and end location. Then, it gives approximently where the user will be at each hour of their trip and what the weather will be like there. This was created with python and html at a hackathon. It was a group of about 10 people and I worked on the backend using GoogleMaps API. Final WebApp can be found at <a href = "travelcast.me">travelcast.me</a>.</h5>
+		</div>
+		<div class = "medium-5 medium-offset-0 small-10 small-offset-1 cell">
+		<h3>Cyclone</h3>
+		<a href = "https://github.com/CDeas9/Cyclone" title = "CycloneScale" target = "_blank"><img src = "images/cyclone.jpg" alt = "code for cyclone scale program"/></a>
+		<h5><br>Calculates what level of cyclone, hurricane, and typhoon a storm is based on the user's inputs. This was an indivdual project for class created in Pycharm.</h5>
+		</div>
+		<div class = "medium-5 medium-offset-1 small-10 small-offset-1 cell">
+		<h3>Mortgage</h3>
+			<a href = "https://github.com/CDeas9/Mortgage" title = "MortgageCalc" target = "_blank"><img src = "images/mortgage.jpg" alt = "code for a mortgage calculator" title = "A mortgage calculator created in Python."/></a>
+			<h5><br>Calculates how many total payments and how much each payment will be for a mortgage based on the user's inputs. This was an indivdual project for class created in Pycharm.</h5>
+		</div>
+	</div>
+</div>
+<div class = "grid-container java">
+	<div class = "grid-x grid-padding-x">
+	<div class = "medium-12 cell">
+		<h2 id="java">Java</h2>
+		<p>Click on photos to see code in GitHub.</p>
+		</div>
+	<div class = "medium-5 medium-offset-1 small-10 small-offset-1 cell">
+	<h3>Disney Game</h3>
+			<a href = "https://github.com/CDeas9/DisneyZuulGame" title = "GitHubGame" target = "_blank"><img src = "images/DisneyZuul.jpg" alt = "code for Disney Game" title = "A Disney game created in Java."/></a>
+		<h5><br>Our final project for programming one was to create our own zuul game. The point of the game was to go through different rooms, collect objects, and win the game. In my game, you are a kid that lost their family in Disney's Magic Kingdom. The characters help you find them if you help the characters. Once you get to the entrance and leave with your whole family, you have won the game. Created in BlueJ alone, but cleaned up in IntelliJ.</h5>
+		</div>
+	<div class = "medium-5 medium-offset-0 small-10 small-offset-1 cell">
+		<h3>Draw Demo</h3>
+			<a href = "https://github.com/CDeas9/DrawDemo" title = "DrawDemo" target = "_blank"><img src = "images/DrawDemo.jpg" alt = "code for drawing" title = "A drawing of Callie's dorm created in Java"/></a>
+			<h5><br>We worked with code to draw different objects. One of the assignments was to create a picture. It probably should have been a quick homework assignment, but I got really into it and spent a few hours drawing my room. Coded in BlueJ.</h5>
+		</div>
+	<div class = "medium-5 medium-offset-1 small-10 small-offset-1 cell">
+		<h3>Binary Search Trees</h3>
+			<a href = "https://github.com/CDeas9/BinarySearchTree/tree/master/ch08Trees" title = "BinaryTree" target = "_blank"><img src = "images/Binary.jpg" alt = "code for binary search trees" title = "A binary search tree created in Java."/></a>
+		<h5><br>With recursion, two different ways of looking at a binary search tree will print out. Created alone in IntelliJ.</h5>
+		</div>
+	</div>
+	</div>
+<div class = "grid-container htm">
+	<div class = "grid-x grid-padding-x">
+		<div class = "medium-12 cell">
+		<h2 id="htm">HTML</h2>
+		<p>Click on photos to see code in GitHub.</p>
+	</div>
+	<div class = "medium-5 medium-offset-1 small-10 small-offset-1 cell">
+		<h3>La Chetlaine</h3>
+			<a href = "https://github.com/CDeas9/LaChatelaine" title = "La Chetlaine" target = "_blank"><img src = "images/rest.jpg" alt = "code for La Chetlaine bakery"/></a>
+		<h5><br>A website created for La Chatlaine bakery. Written in DreamWeaver. Full website can be found <a href = "http://callies19.bu-web.com/project-2/index.html" target = "_blank">here</a>.</h5>
+		</div>
+		</div>
+	</div>
+<div class = "grid-container other">
+	<div class = "grid-x grid-padding-x">
+	<div class = "medium-12 cell">
+		<h2 id = "other">Other Languages</h2>
+		<p>Click on photos to see code in GitHub.</p>
+		</div>
+	<div class = "medium-5 medium-offset-1 small-10 small-offset-1 cell">
+		<h3>Disney Ticket Prices</h3>
+			<a href = "https://github.com/CDeas9/Disney-Ticket-Prices" title = "TicketPrices" target = "_blank"><img src = "images/tickets.jpg" alt = "code for predicting Disney ticket prices"/></a>
+			<h5><br>Written in R using RStudio. I used different models to predict the ticket prices of Disney when new expansions open at the park. The three main variables I found to be predictors are year/inflation, if there was a fan base of the theme before opening, and how many rides were in the expansion.</h5>
+		</div>
+	<div class = "medium-5 medium-offset-0 small-10 small-offset-1 cell">
+		<h3>Pointers</h3>
+			<a href = "https://github.com/CDeas9/Pointers" title = "Pointers" target = "_blank"><img src = "images/pointers.jpg" alt = "code for using pointers" title = "Using pointers to chesck a palindrome."/></a>
+					<h5><br>Written in C++ using CLion. Creates a new user for a airline company and checks if their password is a palindrome.</h5>
+		</div>
+	</div>
+	</div>
+</body>
+<div class = "grid-container foot">
+	<div class = "grid-x text-center">
+		<div class = "medium-12">
+			<h6>&copy Callie Deas 2019</h6>
+		</div>
+	</div>
+	</div>
+</html>
