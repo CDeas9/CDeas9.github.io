@@ -74,9 +74,13 @@ h2, h3, h4, h5, h6, p{
     font-size: 55px;
 }
 .grid-container .grid-x .medium-12.text-center.cell {
-	margin-top: 40px;
-    margin-bottom: 60px;
     font-size: 55px;
+}
+#main-menu .top-bar-left .dropdown.menu {
+    background-color: rgba(255,255,255,1.00);
+}
+.dropdown.menu li .vertical.menu {
+    background-color: rgba(255,255,255,1.00);
 }
 .grid-container.nav .grid-x .small-12.text-center.show-for-small-only.cell {
     margin-top: 40px;
