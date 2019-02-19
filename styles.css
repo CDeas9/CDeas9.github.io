@@ -82,6 +82,9 @@ h2, h3, h4, h5, h6, p{
 .dropdown.menu li .vertical.menu {
     background-color: rgba(255,255,255,1.00);
 }
+.grid-container.nav .grid-x .medium-12.text-center.hide-for-small-only.cell {
+    margin-top: 35px;
+}
 .grid-container.nav .grid-x .small-12.text-center.show-for-small-only.cell {
     margin-top: 40px;
 }
@@ -145,6 +148,9 @@ h2, h3, h4, h5, h6, p{
 }
 .grid-container .grid-x.grid-padding-x .medium-3.small-2.probl.cell {
     height: 168px;
+}
+.grid-container.nav .grid-x .small-12.text-center.show-for-small-only.cell {
+    margin-top: -5px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
